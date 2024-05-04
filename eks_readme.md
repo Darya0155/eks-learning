@@ -74,6 +74,23 @@ kubectl exec -it <POD_name> -- sh
 kubectl exec -it <POD_name> --container <container_names> -- sh
 
 
+# run pod with command line
+kubectl run my-first-pod --image 397324722998.dkr.ecr.ap-south-1.amazonaws.com/web:0.0.1
+
+
+# How to delete pod 
+kubectl delete pod <podname>
+
+
+```
+
+
+# kubectl service
+```bash
+# nodePort serivce port available 30000-32767
+kubectl expose pod my-first-pod  --type=NodePort --port=80 --target-port=8080 --name=my-first-svc
+
+kubectl get svc
 ```
 
 # kubectl namespace

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <property name="path" value="./log"/>
+    <property name="archivedPath" value="log/archived"/>
+    <property name="pattern" value="%d [%t:%p] [%C:%L] : %m%n"/>
+    <property name="archivedFileNamePattern" value="%d{yyyy-MM-dd}.%i.log.gz"/>
+    <property name="maxfilesize" value="10MB"/>
+    <property name="totalSizeCap" value="1GB"/>
+    <property name="maxHistory" value="5"/>
+
+    <appender name="consoleAppender" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>
+                ${pattern}
+            </pattern>
+        </encoder>
+    </appender>
+    <appender name="consoleFileAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${path}/sysout.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${archivedPath}/sysout.${archivedFileNamePattern}</fileNamePattern>
+            <maxFileSize>${maxfilesize}</maxFileSize>
+            <totalSizeCap>${totalSizeCap}</totalSizeCap>
+            <maxHistory>${maxHistory}</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>
+                ${pattern}
+            </pattern>
+        </encoder>
+    </appender>
+
+    <root level="INFO">
+        <appender-ref ref="consoleAppender"/>
+        <appender-ref ref="consoleFileAppender"/>
+    </root>
+</configuration>

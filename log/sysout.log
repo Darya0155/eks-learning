@@ -1,0 +1,92 @@
+2024-05-04 17:16:28,915 [main:INFO] [org.springframework.boot.StartupInfoLogger:50] : Starting Main using Java 21.0.2 with PID 21540 (C:\Users\Deepa\Arya\window-backup-learning\learning\DOC\DOC\notes\kubernates\Eks-learning\Web\target\classes started by Deepa in C:\Users\Deepa\Arya\window-backup-learning\learning\DOC\DOC\notes\kubernates\Eks-learning)
+2024-05-04 17:16:28,918 [main:INFO] [org.springframework.boot.SpringApplication:654] : No active profile set, falling back to 1 default profile: "default"
+2024-05-04 17:16:30,132 [main:INFO] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:109] : Tomcat initialized with port 8080 (http)
+2024-05-04 17:16:30,158 [main:INFO] [org.apache.juli.logging.DirectJDKLog:173] : Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-04 17:16:30,163 [main:INFO] [org.apache.juli.logging.DirectJDKLog:173] : Starting service [Tomcat]
+2024-05-04 17:16:30,163 [main:INFO] [org.apache.juli.logging.DirectJDKLog:173] : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-04 17:16:30,227 [main:INFO] [org.apache.juli.logging.DirectJDKLog:173] : Initializing Spring embedded WebApplicationContext
+2024-05-04 17:16:30,227 [main:INFO] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:296] : Root WebApplicationContext: initialization completed in 1248 ms
+2024-05-04 17:16:30,574 [main:INFO] [org.apache.juli.logging.DirectJDKLog:173] : Starting ProtocolHandler ["http-nio-8080"]
+2024-05-04 17:16:30,598 [main:INFO] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:241] : Tomcat started on port 8080 (http) with context path ''
+2024-05-04 17:16:30,607 [main:INFO] [org.springframework.boot.StartupInfoLogger:56] : Started Main in 2.164 seconds (process running for 3.011)
+2024-05-04 17:17:19,702 [main:INFO] [org.springframework.boot.StartupInfoLogger:50] : Starting Main using Java 21.0.2 with PID 14892 (C:\Users\Deepa\Arya\window-backup-learning\learning\DOC\DOC\notes\kubernates\Eks-learning\Web\target\classes started by Deepa in C:\Users\Deepa\Arya\window-backup-learning\learning\DOC\DOC\notes\kubernates\Eks-learning)
+2024-05-04 17:17:19,706 [main:INFO] [org.springframework.boot.SpringApplication:654] : No active profile set, falling back to 1 default profile: "default"
+2024-05-04 17:17:21,905 [main:INFO] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:109] : Tomcat initialized with port 8080 (http)
+2024-05-04 17:17:21,924 [main:INFO] [org.apache.juli.logging.DirectJDKLog:173] : Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-04 17:17:21,929 [main:INFO] [org.apache.juli.logging.DirectJDKLog:173] : Starting service [Tomcat]
+2024-05-04 17:17:21,929 [main:INFO] [org.apache.juli.logging.DirectJDKLog:173] : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-04 17:17:22,050 [main:INFO] [org.apache.juli.logging.DirectJDKLog:173] : Initializing Spring embedded WebApplicationContext
+2024-05-04 17:17:22,051 [main:INFO] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:296] : Root WebApplicationContext: initialization completed in 2195 ms
+2024-05-04 17:17:22,623 [main:INFO] [org.apache.juli.logging.DirectJDKLog:173] : Starting ProtocolHandler ["http-nio-8080"]
+2024-05-04 17:17:22,653 [main:INFO] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:241] : Tomcat started on port 8080 (http) with context path ''
+2024-05-04 17:17:22,666 [main:INFO] [org.springframework.boot.StartupInfoLogger:56] : Started Main in 3.569 seconds (process running for 4.591)
+2024-05-04 17:23:13,863 [main:INFO] [org.springframework.boot.StartupInfoLogger:50] : Starting Main using Java 21.0.2 with PID 26572 (C:\Users\Deepa\Arya\window-backup-learning\learning\DOC\DOC\notes\kubernates\Eks-learning\Web\target\classes started by Deepa in C:\Users\Deepa\Arya\window-backup-learning\learning\DOC\DOC\notes\kubernates\Eks-learning)
+2024-05-04 17:23:13,867 [main:INFO] [org.springframework.boot.SpringApplication:654] : No active profile set, falling back to 1 default profile: "default"
+2024-05-04 17:23:15,210 [main:INFO] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:109] : Tomcat initialized with port 8080 (http)
+2024-05-04 17:23:15,228 [main:INFO] [org.apache.juli.logging.DirectJDKLog:173] : Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-04 17:23:15,232 [main:INFO] [org.apache.juli.logging.DirectJDKLog:173] : Starting service [Tomcat]
+2024-05-04 17:23:15,232 [main:INFO] [org.apache.juli.logging.DirectJDKLog:173] : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-04 17:23:15,314 [main:INFO] [org.apache.juli.logging.DirectJDKLog:173] : Initializing Spring embedded WebApplicationContext
+2024-05-04 17:23:15,314 [main:INFO] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:296] : Root WebApplicationContext: initialization completed in 1367 ms
+2024-05-04 17:23:15,374 [main:WARN] [org.springframework.context.support.AbstractApplicationContext:632] : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'testController': Injection of autowired dependencies failed
+2024-05-04 17:23:15,377 [main:INFO] [org.apache.juli.logging.DirectJDKLog:173] : Stopping service [Tomcat]
+2024-05-04 17:23:15,391 [main:INFO] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger:82] : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-05-04 17:23:15,412 [main:ERROR] [org.springframework.boot.SpringApplication:851] : Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'testController': Injection of autowired dependencies failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:514)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1419)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:962)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.asm.Main.main(Main.java:11)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder '' in value "${}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:200)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:953)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1374)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:784)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:767)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:508)
+	... 17 common frames omitted
+2024-05-04 17:23:46,139 [main:INFO] [org.springframework.boot.StartupInfoLogger:50] : Starting Main using Java 21.0.2 with PID 9124 (C:\Users\Deepa\Arya\window-backup-learning\learning\DOC\DOC\notes\kubernates\Eks-learning\Web\target\classes started by Deepa in C:\Users\Deepa\Arya\window-backup-learning\learning\DOC\DOC\notes\kubernates\Eks-learning)
+2024-05-04 17:23:46,142 [main:INFO] [org.springframework.boot.SpringApplication:654] : No active profile set, falling back to 1 default profile: "default"
+2024-05-04 17:23:47,819 [main:INFO] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:109] : Tomcat initialized with port 8080 (http)
+2024-05-04 17:23:47,832 [main:INFO] [org.apache.juli.logging.DirectJDKLog:173] : Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-04 17:23:47,834 [main:INFO] [org.apache.juli.logging.DirectJDKLog:173] : Starting service [Tomcat]
+2024-05-04 17:23:47,835 [main:INFO] [org.apache.juli.logging.DirectJDKLog:173] : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-04 17:23:47,897 [main:INFO] [org.apache.juli.logging.DirectJDKLog:173] : Initializing Spring embedded WebApplicationContext
+2024-05-04 17:23:47,898 [main:INFO] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:296] : Root WebApplicationContext: initialization completed in 1678 ms
+2024-05-04 17:23:48,365 [main:INFO] [org.apache.juli.logging.DirectJDKLog:173] : Starting ProtocolHandler ["http-nio-8080"]
+2024-05-04 17:23:48,391 [main:INFO] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:241] : Tomcat started on port 8080 (http) with context path ''
+2024-05-04 17:23:48,403 [main:INFO] [org.springframework.boot.StartupInfoLogger:56] : Started Main in 2.884 seconds (process running for 3.775)
+2024-05-04 17:24:34,767 [main:INFO] [org.springframework.boot.StartupInfoLogger:50] : Starting Main using Java 21.0.2 with PID 14324 (C:\Users\Deepa\Arya\window-backup-learning\learning\DOC\DOC\notes\kubernates\Eks-learning\Web\target\classes started by Deepa in C:\Users\Deepa\Arya\window-backup-learning\learning\DOC\DOC\notes\kubernates\Eks-learning)
+2024-05-04 17:24:34,769 [main:INFO] [org.springframework.boot.SpringApplication:654] : No active profile set, falling back to 1 default profile: "default"
+2024-05-04 17:24:35,964 [main:INFO] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:109] : Tomcat initialized with port 8080 (http)
+2024-05-04 17:24:35,983 [main:INFO] [org.apache.juli.logging.DirectJDKLog:173] : Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-04 17:24:35,986 [main:INFO] [org.apache.juli.logging.DirectJDKLog:173] : Starting service [Tomcat]
+2024-05-04 17:24:35,986 [main:INFO] [org.apache.juli.logging.DirectJDKLog:173] : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-04 17:24:36,042 [main:INFO] [org.apache.juli.logging.DirectJDKLog:173] : Initializing Spring embedded WebApplicationContext
+2024-05-04 17:24:36,043 [main:INFO] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:296] : Root WebApplicationContext: initialization completed in 1212 ms
+2024-05-04 17:24:36,448 [main:INFO] [org.apache.juli.logging.DirectJDKLog:173] : Starting ProtocolHandler ["http-nio-8080"]
+2024-05-04 17:24:36,475 [main:INFO] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:241] : Tomcat started on port 8080 (http) with context path ''
+2024-05-04 17:24:36,486 [main:INFO] [org.springframework.boot.StartupInfoLogger:56] : Started Main in 2.193 seconds (process running for 2.905)
+2024-05-04 17:24:36,493 [main:INFO] [com.asm.Main:19] : ##### App started ########

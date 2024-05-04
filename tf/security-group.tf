@@ -20,3 +20,10 @@ resource "aws_vpc_security_group_egress_rule" "allow_all_traffic_ipv4_3" {
   cidr_ipv4         = "0.0.0.0/0"
   ip_protocol       = "-1" # semantically equivalent to all ports
 }
+
+resource "aws_vpc_security_group_ingress_rule" "allow_all_in_ipv4_3" {
+  security_group_id = aws_eks_cluster.eks_cluster.vpc_config[0].cluster_security_group_id
+  cidr_ipv4         = "0.0.0.0/0"
+  ip_protocol       = "-1"
+
+}
