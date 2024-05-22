@@ -1,0 +1,100 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: e1-deploy
+  namespace: dev
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: web
+  revisionHistoryLimit: 5
+  progressDeadlineSeconds: 100
+  minReadySeconds: 10
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 1
+      maxSurge: 1
+  template:
+    metadata:
+      labels:
+        app: web
+    spec:
+      containers:
+      - name: web-pod
+        image: deepakarya0155/kubenatiesspringhelloworld:0.0.2
+        ports:
+        - containerPort: 8080
+        resources:
+          limits:
+            memory: 512Mi
+            cpu: 0.2
+        imagePullPolicy: Always
+        env:
+        - name: app_name
+          value: DEV
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: e1-2-deploy
+  namespace: dev
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: healthcheck
+  revisionHistoryLimit: 5
+  progressDeadlineSeconds: 100
+  minReadySeconds: 10
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 1
+      maxSurge: 1
+  template:
+    metadata:
+      labels:
+        app: healthcheck
+    spec:
+      containers:
+      - name: healthcheck-pod
+        image: deepakarya0155/kubenatieshealthchecker:0.0.2
+        ports:
+        - containerPort: 8081
+        resources:
+          limits:
+            memory: 512Mi
+            cpu: 0.2
+        imagePullPolicy: Always
+        env:
+        - name: http.web-app
+          value: http://web-svc:8080/health
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: health-svc
+  namespace: dev
+spec:
+  selector:
+    app: healthcheck
+  type: NodePort
+  ports:
+  - port: 8081
+    nodePort: 30005
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: web-svc
+  namespace: dev
+spec:
+  selector:
+    app: web
+  type: NodePort
+  ports:
+  - port: 8080
+    nodePort: 30004
+

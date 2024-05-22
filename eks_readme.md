@@ -16,6 +16,11 @@ aws sts get-caller-identity
 aws eks update-kubeconfig --region ap-south-1 --name eks_cluster
 ```
 
+# ECR 
+```bash
+aws ecr get-login-password --region ap-south-1 | docker login --username AWS --password-stdin 397324722998.dkr.ecr.ap-south-1.amazonaws.com
+```
+
 # kubect basic command 
 
 ```bash
@@ -101,4 +106,22 @@ kubectl describe ns <NAME_space_name>
 # How to create ns (imprative) 
 kubectl create ns hydra
 
+```
+
+
+
+
+## EBS storage class & driver
+```bash
+
+# step 1 
+  create policy to give permission to node on EBS
+  assing policy to node group role You will find in this polices.tf 
+
+#  step 2 (install ebs-csi driver )
+kubectl apply -k "github.com/kubernetes-sigs/aws-ebs-csi-driver/deploy/kubernetes/overlays/stable/?ref=release-1.30"
+
+
+# Verify ebs-csi pods running
+kubectl get pods -n kube-system
 ```

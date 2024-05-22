@@ -1,0 +1,27 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: abc-in
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /
+  namespace: ingress-nginx
+spec:
+  ingressClassName: igc-nginx-2
+  rules:
+  - host: localhost
+    http:
+      paths:
+      - path: /web
+        pathType: Prefix
+        backend:
+          service:
+            name: svc-abc
+            port:
+              number: 8080
+      - path: /health
+        pathType: Prefix
+        backend:
+          service:
+            name: health-abc
+            port:
+              number: 8081
